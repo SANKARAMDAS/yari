@@ -15,9 +15,9 @@ Before you can start working with Yari, you need to:
 
 <!-- Peterbe, Feb 2021: There appears to be a bug in Prettier for .md files
     that forces in a second (extra) whitespace after the `1.` here.
-    That breaks `markdownlint` *and* `prettier --check`. Annoying.
+    That breaks `markdown-lint` *and* `prettier --check`. Annoying.
     So for now let's make an exception. -->
-<!-- markdownlint-disable list-marker-space -->
+<!-- markdown-lint-disable list-marker-space -->
 
 1.  Install [git](https://git-scm.com/), [Node.js](https://nodejs.org), and
     [Yarn 1](https://classic.yarnpkg.com/en/docs/install).
@@ -41,7 +41,7 @@ app locally. Do this like so:
     cd yari
     yarn install
 
-Now copy the `.env-dist` file to `.env`:
+Now copy the `.env-list file to `.env`:
 
     cp .env-dist .env
 
@@ -59,17 +59,17 @@ If you prefer you can use `yarn start`, which will re-use any previously
 compiled files; this is "riskier" but faster. `yarn dev` always ensures that
 everything is up-to-date.
 
-The `yarn start` command also starts a server with slightly different behavior —
-it doesn't automatically reload when its source code files change, so use with
+The `yarn start` command also starts a server with slightly different behaviour —
+it doesn't automatically reload when its source code files change, so use it with
 caution.
 
 See also our [reviewing guide](docs/REVIEWING.md) for information on how to
-review Yari changes.
+review Yari's changes.
 
 ### Pull request requirements
 
 Firstly, thank you for your interest in contributing to Yari! We do have a few
-requirements when it comes to pull requests:
+requirements when it comes to pulling requests:
 
 1. Please make use of a
    [feature branch workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow).
