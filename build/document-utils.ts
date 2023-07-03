@@ -38,6 +38,7 @@ function transformTitle(title) {
  * The breadcrumb is an array of parents including the document itself.
  * It is only added to the document if there are actual parents.
  */
+
 export function addBreadcrumbData(url, document) {
   const parents = [];
   const split = url.split("/");
