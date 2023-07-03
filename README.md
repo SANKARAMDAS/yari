@@ -86,10 +86,10 @@ Thank you for your understanding! We look forward to your contributions.
 
 ### How to stay up-to-date
 
-Periodically, the code and the content changes. Make sure you stay up-to-date
+Periodically, the code and the content change. Make sure you stay up-to-date
 with something along the following lines (replace `yari-origin` with whatever
 you called [the remote location](https://git-scm.com/docs/git-remote) of the
-original yari repo):
+original Yari repo):
 
     git pull yari-origin main
     yarn
