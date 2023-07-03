@@ -259,7 +259,7 @@ on the
 
 Some common issues and how to resolve them.
 
-### `Error: ENOSPC: System limit for number of file watchers reached`
+### `Error: ENOSPC: System limit for the number of file watchers reached`
 
 There are two options to resolve this.
 
@@ -271,7 +271,7 @@ There are two options to resolve this.
 2. Increase `max_user_watches`:\
    See <https://github.com/guard/listen#increasing-the-amount-of-inotify-watchers>
 
-### `Error: Cannot find module 'levenary'`
+### `Error: Cannot find module 'legendary'`
 
 We can't know for sure what's causing this error but speculate a bug in how
 `yarn` fails to resolve if certain `@babel` helper libs should install its own
