@@ -236,8 +236,8 @@ This makes the build faster and there's also no good place to display the flaws
 in a production-grade build.
 
 **In the future**, we might make the default flaw level `error` instead. That
-means that any new edits to (or creation of) any document will break in
-continuous integration if there's a single flaw and the onus will be on you to
+means that any new edits to (or creation of) any document will break-in
+continuous-integration if there's a single flaw and the onus will be on you to
 fix it.
 
 ## Icons and logos
