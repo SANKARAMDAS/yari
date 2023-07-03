@@ -19,7 +19,7 @@ export function* findMatchesInText(
     const line = (left.match(/\n/g) || []).length + 1;
     const lastIndexOf = left.lastIndexOf("\n") + 1;
     const column =
-      match.index - lastIndexOf + 1 + (attribute ? attribute.length + 2 : 0);
+     match.index - lastIndexOf + 1 + (attribute ? attribute.length + 2 : 0);
     yield { line, column };
   }
 }
