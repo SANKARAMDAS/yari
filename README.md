@@ -179,7 +179,7 @@ manually upgrade them you can use:
 [`ngrok`](https://ngrok.com/) allows you to start an HTTP proxy server from the
 web into your Yari server. This can be useful for testing your current build
 using external tools like BrowserStack, WebPageTest, or Google Translate, or to
-simply show a friend what you're up to. Obviously it'll never be faster than
+simply show a friend what you're up to. Obviously, it'll never be faster than
 your uplink Internet connection but it should be fairly feature-complete.
 
 1. [Create in account on Ngrok.com](https://dashboard.ngrok.com/signup)
