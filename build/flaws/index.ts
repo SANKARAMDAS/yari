@@ -8,6 +8,7 @@ import {
   VALID_FLAW_CHECKS,
   DEFAULT_LOCALE,
 } from "../../libs/constants/index.js";
+
 import {
   replaceMatchesInText,
   replaceMatchingLinksInMarkdown,
