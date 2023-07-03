@@ -127,7 +127,7 @@ export function checkImageReferences(
           // it now, we still want the full relative URL.
           img.attr("src", absoluteURL.pathname);
         } else {
-          addImageFlaw(img, src, {
+          addImageFlaw(img, src,  {
             explanation: "External image URL",
             externalImage: true,
             suggestion: null,
