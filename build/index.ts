@@ -13,7 +13,6 @@ import { Doc, WebFeature, WebFeatureStatus } from "../libs/types/document.js";
 import { Document, execGit } from "../content/index.js";
 import { CONTENT_ROOT, REPOSITORY_URLS } from "../libs/env/index.js";
 import * as kumascript from "../kumascript/index.js";
-
 import { FLAW_LEVELS } from "../libs/constants/index.js";
 import { extractSections } from "./extract-sections.js";
 import { extractSidebar } from "./extract-sidebar.js";
