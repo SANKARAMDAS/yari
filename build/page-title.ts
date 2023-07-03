@@ -33,6 +33,7 @@ export function getPageTitle(doc: Partial<Doc>) {
 // For example, for the "Web" area, if you can, go one level deeper
 // to things like "Web/HTML". This set defines which "root slugs" we
 // ought to consider going deeper on.
+
 const BAD_ROOTS = new Set(["Web"]);
 
 /**
