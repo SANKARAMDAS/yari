@@ -13,6 +13,7 @@ import { Doc } from "../libs/types/document.js";
  * done when Kuma was the platform.
  *
  */
+
 export function getPageTitle(doc: Partial<Doc>) {
   const docURL = doc.mdn_url;
   const rootParentURL = getRootURL(docURL);
